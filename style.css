@@ -1,40 +1,42 @@
 
 body {
-  background-color: black;
+  background-color: #201e2f;
   color:white;
   
 }
 body h1 {
   margin-left: 40px;
 }
-#introduction {
-  background-color: rgba(255,255,255,0.12);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px
+
+a[href*='index.html'] {
+  color: rgb(255, 255, 255);
 }
-#yapping {
-  background-color: rgba(255,255,255,0.12);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px
- 
+a[href*='github.io'] {
+  color: rgb(255, 255, 255);
 }
-#Teams {
-  background-color: rgba(255,255,255,0.12);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px
+a:hover {
+  color: darkorange;
 }
-#Assignments {
-  background-color: rgba(255,255,255,0.12);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px
+.subtitle {
+  background-color: #5c596c;
 }
 #Profile {
   background-color: rgba(255,255,255,0.12);
-  margin: 10px;
   padding: 10px;
-  border-radius: 10px
+}
+#Assignments {
+  background-color: rgba(255,255,255,0.12);
+  padding: 10px;
+}
+#teams {
+  background-color: rgba(255,255,255,0.12);
+  padding: 10px;
+}
+#yapping {
+  background-color: rgba(255,255,255,0.12);
+  padding: 10px;
+}
+#Introduction {
+  background-color: rgba(255,255,255,0.12);
+  padding: 10px;
 }
