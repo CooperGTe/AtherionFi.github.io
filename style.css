@@ -2,7 +2,18 @@
 body {
   background-color: #201e2f;
   color:white;
-  
+  display:flex;
+  flex-direction: row;
+  margin: 0px;
+}
+#main-content {
+  order: 1;
+  width: 80%;
+}
+#link {
+  order: 2;
+  width: 20%;
+  background-color: rgba(255,255,255,0.12);
 }
 body h1 {
   margin-left: 40px;
@@ -19,24 +30,21 @@ a:hover {
 }
 .subtitle {
   background-color: #5c596c;
+  border-radius: 10px;
+  padding: 0px 5px; 
 }
 #Profile {
-  background-color: rgba(255,255,255,0.12);
   padding: 10px;
 }
 #Assignments {
-  background-color: rgba(255,255,255,0.12);
   padding: 10px;
 }
 #teams {
-  background-color: rgba(255,255,255,0.12);
   padding: 10px;
 }
 #yapping {
-  background-color: rgba(255,255,255,0.12);
   padding: 10px;
 }
 #Introduction {
-  background-color: rgba(255,255,255,0.12);
   padding: 10px;
 }
