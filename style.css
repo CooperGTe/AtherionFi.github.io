@@ -48,3 +48,15 @@ a:hover {
 #Introduction {
   padding: 10px;
 }
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }  
+  #main-content {
+    order: 1;
+    width: 100%;
+  }
+  #link {
+    order: 2;
+    width: 100%;
+}
