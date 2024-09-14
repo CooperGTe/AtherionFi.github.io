@@ -2,6 +2,7 @@
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif !important;
 }
+
 body {
   background-color: #201e2f;
   color:white;
@@ -9,18 +10,31 @@ body {
   flex-direction: row;
   margin: 0px;
 }
+
 #main-content {
   order: 1;
   width: 80%;
 }
+
 #balls {
   width: auto;
   height: 230px;
   background-repeat: no-repeat;
-  background-image: url(/profile/Wallpaper.png);
+  background-image: url(/Pictures/Banner.png);
   background-size: cover;
   background-position-y: -150px;
+  filter:blur(2px)
 }
+
+.main-title {
+  padding: 4px;
+  margin: 4px;
+  display: inline-flex;
+  background-color: #5c596c;
+  border-radius: 3px;
+  font-weight:bolder;
+}
+
 .button {
   text-decoration: none;
   background-color: rgb(135, 206, 235);
@@ -33,7 +47,7 @@ body {
   transition: width 0.3s, background-color 0.3s;
 }
 .button:hover {
-  width: 200px;
+  width: 170px;
   background-color:  rgb(65, 148, 180);
 }
 #link {
