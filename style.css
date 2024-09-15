@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
-  background-color: #201e2f;
-  color:white;
-  display:flex;
-  flex-direction: row;
-  margin: 0px;
+    background-color: #201e2f;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 #main-content {
@@ -23,7 +29,7 @@ body {
   background-image: url(/Pictures/Banner.png);
   background-size: cover;
   background-position-y: -150px;
-  filter:blur(2px)
+  filter: blur(1.6px) brightness(0.69420);
 }
 
 .main-title {
@@ -48,7 +54,7 @@ body {
 }
 .button:hover {
   width: 170px;
-  background-color:  rgb(65, 148, 180);
+  background-color:  #9f2e5a;
 }
 #link {
   order: 2;
@@ -56,33 +62,24 @@ body {
   background-color: rgba(255,255,255,0.12);
   height: 100vh;
   z-index: 2;
-  box-shadow: 0px 0px 24px black;
+  box-shadow: 0px 0px 24px #0b1a27;
 }
 body h1 {
   margin-left: 40px;
 }
 a:hover {
-  color: rgb(224, 217, 207);
+  color: #242939;
 }
 .subtitle {
   background-color: #5c596c;
-  border-radius: 10px;
-  padding: 0px 5px; 
+  border-radius: 3px;
+  padding: 0px 3px; 
+  z-index: 2;
+  box-shadow: 0px 0px 5px #0b1a27;
 }
-#Profile {
+#Profile, #Assignments, #teams, #yapping, #introduction {
   padding: 10px;
-}
-#Assignments {
-  padding: 10px;
-}
-#teams {
-  padding: 10px;
-}
-#yapping {
-  padding: 10px;
-}
-#Introduction {
-  padding: 10px;
+
 }
 @media (max-width: 768px) {
   body {

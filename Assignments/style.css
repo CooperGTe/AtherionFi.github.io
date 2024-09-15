@@ -8,8 +8,8 @@ body h1 {
 }
 table, th, td {
     border: 1px solid #ffffff;
-    font-family: Arial, sans-serif;
     text-align: center;
+    font-size: 1em;
 }
 a[href*='html'] {
  color: rgb(255, 255, 255);
@@ -20,3 +20,10 @@ a:hover {
 #title {
     background-color: rgba(255,255,255,0.12);
   }
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  * {
+      font-size: 1em;
+      font-family: 'Quicksand', sans-serif;
+  }
+  
