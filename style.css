@@ -35,10 +35,13 @@ h2 {
 .main-title {
   padding: 4px;
   margin: 4px;
-  display: inline-flex;
+  display: block;
   background-color: #5c596c;
   border-radius: 3px;
   font-weight:bolder;
+  font-size: larger;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
@@ -52,10 +55,12 @@ h2 {
   width: 145px;
   transition: width 0.3s, background-color 0.3s;
 }
+
 .button:hover {
   width: 170px;
   background-color:  #9f2e5a;
 }
+
 #link {
   order: 2;
   width: 20%;
@@ -64,12 +69,15 @@ h2 {
   z-index: 2;
   box-shadow: 0px 0px 24px #0b1a27;
 }
+
 body h1 {
   margin-left: 40px;
 }
+
 a:hover {
   color: #242939;
 }
+
 .subtitle {
   background-color: #5c596c;
   border-radius: 3px;
@@ -77,6 +85,7 @@ a:hover {
   z-index: 2;
   box-shadow: 0px 0px 5px #0b1a27;
 }
+
 #Profile, #Assignments, #teams, #yapping, #introduction {
   padding: 10px;
 
@@ -93,3 +102,4 @@ a:hover {
     order: 2;
     width: 100%;
   }}
+
