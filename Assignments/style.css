@@ -11,6 +11,9 @@ table, th, td {
     text-align: center;
     font-size: 1em;
 }
+a[href*='tr,td'] {
+    color: rgb(255, 255, 255);
+   }
 a[href*='html'] {
  color: rgb(255, 255, 255);
 }
